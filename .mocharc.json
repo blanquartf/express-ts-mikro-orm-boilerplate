@@ -1,0 +1,10 @@
+{
+  "require" : [
+      "ts-node/register",
+      "tsconfig-paths/register"
+  ],
+  "spec": ["dist/test/**/*.js"],
+  "package": "./package.json",
+  "timeout": 2000,
+  "full-trace": true
+}
